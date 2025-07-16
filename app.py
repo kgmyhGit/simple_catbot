@@ -42,7 +42,7 @@ def get_chain():
 
 model = get_chain()
 
-st.title("Chatbot+session state 튜토리얼")
+st.title("Chatbot+session state 튜토리얼 2")
 
 # session_state에 "messages"가 없으면 대화이력을 저장할 빈 리스트 생성.
 if "messages" not in st.session_state:
